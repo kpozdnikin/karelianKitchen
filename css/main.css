@@ -314,7 +314,7 @@ h1 {
   background-image: url('../img/middle.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  min-height: 800px;
   text-align: center;
 }
 
@@ -351,6 +351,12 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 1260px) {
+  .header {
+    width: 100%;
+  }
 }
 
 .header .menu ul {
@@ -395,6 +401,13 @@ h2 {
 .body {
   width: 1260px;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1260px) {
+  .body {
+    width: 100%;
+  }
 }
 
 .btn {
@@ -523,6 +536,10 @@ h2 {
 
 .sub-header h2 {
   padding: 0;
+}
+
+#about h2, #menu h2 {
+  padding: 1rem 0;
 }
 
 .sub-header .img-block {
