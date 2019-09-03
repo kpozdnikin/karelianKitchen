@@ -416,9 +416,52 @@ h2 {
   box-sizing: border-box;
 }
 
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #262425;
+}
+
+.footer-body {
+  width: 1260px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: white;
+  padding: 36px 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+.footer-body h4 {
+  margin: 0 0 36px 0;
+}
+
+.footer-body img {
+  margin-right: 12px;
+}
+
+.footer-body strong {
+  font-weight: bold;
+}
+
+.footer-body a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
 @media screen and (max-width: 1260px) {
   .body {
     width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-body {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -449,7 +492,7 @@ h2 {
 
 .full-width-img {
   width: 100%;
-  margin-top: 70px;
+  margin: 45px 0;
 }
 
 .glider-contain {
@@ -490,7 +533,7 @@ h2 {
   font-size: 28px;
   display: grid;
   grid-template-columns: 45% 1fr;
-  margin-top: 40px;
+  margin: 45px 0;
 }
 
 .where img {
@@ -502,7 +545,9 @@ h2 {
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
-  margin: 90px 0;
+  margin: 45px 0;
+  float: left;
+  width: 100%;
 }
 
 .text-block h2 {
@@ -544,7 +589,7 @@ h2 {
   margin: 0 auto;
 }
 
-#about h2, #menu h2, #program h2 {
+#about h2, #menu h2, #program h2, #sponsor h2 {
   padding: 1rem 0;
   font-weight: bold;
 }
@@ -588,8 +633,8 @@ h2 {
   text-align: center;
 }
 
-.text-center {
-  text-align: center;
+.text-justify {
+  text-align: justify;
 }
 
 .glider-track .text-block {
@@ -597,7 +642,7 @@ h2 {
 }
 
 .text-with-images {
-  margin-top: 70px;
+  margin-top: 45px;
   float: left;
 }
 
@@ -605,6 +650,20 @@ h2 {
   margin: 0;
 }
 
+.text-with-images.right-text .text-block {
+  margin: 0;
+}
+
+.text-with-images.right-text {
+  float: left;
+  margin: 45px 0;
+}
+
+.text-with-images.right-text img {
+  width: 500px;
+  float: right;
+  margin: 0 0 0 50px;
+}
 
 .text-with-images img {
   width: 500px;
@@ -618,6 +677,10 @@ h2 {
   grid-template-columns: 40% 60%;
 }
 
+.food-cort-row .text-block {
+  text-align: left;
+}
+
 .food-cort-row.text-with-images {
 
 }
@@ -629,4 +692,24 @@ h2 {
 .food-cort-row.text-with-images img {
   margin: 0 0 0 40px;
   width: calc(100% - 40px);
+}
+
+.sponsors-block {
+  margin: 45px 0;
+}
+
+.sponsors-block .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.sponsors-block .row img {
+  margin: 0 auto;
+}
+
+.sponsors-block .row.four {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
