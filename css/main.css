@@ -404,6 +404,9 @@ h2 {
   .img-block.sub {
     margin-bottom: 45px !important;
   }
+  .sponsors-block .row img {
+    width: 100%;
+  }
 }
 
 .header .menu {
@@ -747,7 +750,6 @@ h2 {
 
 .sponsors-block .row img {
   margin: 0 auto;
-  width: 100%;
 }
 
 .sponsors-block .row.four {
