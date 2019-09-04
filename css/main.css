@@ -388,6 +388,7 @@ h2 {
   }
   .text-with-images img {
     margin: 0 !important;
+    width: 100% !important;
   }
   .text-with-images {
     padding: 0;
