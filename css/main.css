@@ -359,6 +359,12 @@ h2 {
   align-items: center;
 }
 
+.footer-fixed {
+  position: absolute;
+  right: 30px;
+  top: 25%
+}
+
 @media screen and (max-width: 1280px) {
   .header {
     width: 100%;
@@ -407,6 +413,9 @@ h2 {
   }
   .sponsors-block .row img {
     width: 100%;
+  }
+  .footer-fixed {
+    position: initial;
   }
 }
 
@@ -476,6 +485,7 @@ h2 {
   font-size: 20px;
   line-height: 23px;
   font-weight: 300;
+  position: relative;
 }
 
 .footer-body h4 {
